@@ -10,10 +10,10 @@ from twitter developer site.
 
 After possessing an authentication token please update the appsettings with a valid authentication code.
 Below show the settings needed to be changed. 
---------------
 - Open appsettings.json file
 - Look for "TwitterBearerToken" in "AppSettings" section, then replace "{Your Twitter Bearer Token}" with a valid Bearer Token. 
 
 # Available API Endpoint for sample statistic
 - /MessageTotal  - Return the total count of messages received
 - /Top10HashTag  - Return the Top 10 HashTag found in the received messages
+
